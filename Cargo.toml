@@ -25,7 +25,7 @@ tokio = { version = "1.53", features = ["full"] }
 # derive macros / generated code name them by path and we enable extra
 # features on them. Keep their requirements semver-compatible with wakuwaku's
 # so Cargo resolves a single copy (`cargo tree -i sqlx` must list one).
-wakuwaku = { version = "1.0.0-rc3", features = ["iggy", "sqlx-pg", "redis"] }
+wakuwaku = { version = "1.0.0-rc4", features = ["iggy", "sqlx-pg", "redis"] }
 kanau = { version = "0.6", features = [
     "message",
     "rkyv",

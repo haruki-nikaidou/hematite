@@ -4617,9 +4617,9 @@ checksum = "051eb1abcf10076295e815102942cc58f9d5e3b4560e46e53c21e8ff6f3af7b1"
 
 [[package]]
 name = "wakuwaku"
-version = "1.0.0-rc3"
+version = "1.0.0-rc4"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "1433fc1013d1faa2f72f6c8abef49df3a934c74ef599f15b2fee4ba713e70970"
+checksum = "bdc22c00580daa79a0b45e55b1b2cee760ebf31d204faa93bda738d701e07cc4"
 dependencies = [
  "futures-util",
  "iggy",
@@ -4636,9 +4636,9 @@ dependencies = [
 
 [[package]]
 name = "wakuwaku-entity"
-version = "0.3.0"
+version = "0.4.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "82ce2300f92ad07bc962390703c49a6528d8b4dbe6845657441aa4da42603969"
+checksum = "756b24f07cf9451b9f5222b73f28a3174570deda98fd60294251d616e6254fa9"
 dependencies = [
  "blake3",
  "either",
@@ -4648,13 +4648,15 @@ dependencies = [
  "redis",
  "sqlx",
  "thiserror",
+ "tokio",
+ "tracing",
 ]
 
 [[package]]
 name = "wakuwaku-iggy"
-version = "0.2.1"
+version = "0.3.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "e08b274664311e1640d3f69de88c5a9be06ec76eb8ccf7f20b03f84bb8ce587f"
+checksum = "d06474f27187747e8a4c3cd3de37bf4fdf4039364f864ae5cf4e9ec9fc36514f"
 dependencies = [
  "anyhow",
  "bytes",
